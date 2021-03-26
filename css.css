@@ -1,16 +1,18 @@
-body{
+body {
     background-color: antiquewhite;
-    color: firebrick;
+    color: rgb(189, 36, 36);
     font-family: cursive;
     font-style: italic;
     font-weight: bolder;
     font-size: 25px;
 }
-a{
-   color: limegreen;
-   font-weight: bold; 
+
+a {
+    color: limegreen;
+    font-weight: bold;
 }
-a:hover{
+
+a:hover {
     color: orangered;
 }
 h1{
