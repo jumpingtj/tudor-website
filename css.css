@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+    color: firebrick;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+}
+a{
+   color: limegreen;
+   font-weight: bold; 
+}
+a:hover{
+    color: orangered;
+}
