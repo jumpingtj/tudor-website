@@ -1,5 +1,4 @@
 <html>
-Elizabeth I (1558 – 1603)
 
 <head>
     <link rel="stylesheet" href="css.css">
@@ -9,8 +8,8 @@ Elizabeth I (1558 – 1603)
     <h1>
         Tudors
     </h1>
-    <ul>
-        <a href="monarchs/henryVII.html">
+    <ul id='index'>
+        <!-- <a href="monarchs/henryVII.html">
             <li>Henry VII (1485-1509)</li>
         </a>
         <a href="monarchs/henryVIII.html">
@@ -26,10 +25,22 @@ Elizabeth I (1558 – 1603)
             <li>Mary I (1553-1558)</li>
         </a>
         <a href="monarchs/elizabethI.html">
-            <li>Elizabeth I (1558 – 1603)</li>
-        </a>
+            <li>Elizabeth I (1558 - 1603)</li>
+        </a> -->
     </ul>
-
+    <script src='list.js'>
+    </script>
+    <script>
+        var p = {
+            "Henry VII (1485-1509)": "monarchs/henryVII.html",
+            "Henry VIII (1509-1547)": "monarchs/henryVIII.html",
+            "Edward VI (1547-1553)": "monarchs/edwardVI.html",
+            "Lady Jane Grey (1553-1553)": "monarchs/ladyjanegrey.html",
+            "Mary I (1553-1558)": "monarchs/maryI.html",
+            "Elizabeth I (1558 - 1603)": "monarchs/elizabethI.html"
+        }
+        create(p, 'index')
+    </script>
 </body>
 
 </html>

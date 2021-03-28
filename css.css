@@ -2,7 +2,7 @@ body {
     background-color: antiquewhite;
     color: rgb(189, 36, 36);
     font-family: cursive;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: bolder;
     font-size: 25px;
 }
@@ -16,6 +16,10 @@ a:hover {
     color: orangered;
 }
 
-.intro{
+.intro {
     text-align: center;
+}
+
+strong {
+    font-size: 1.4em;
 }
